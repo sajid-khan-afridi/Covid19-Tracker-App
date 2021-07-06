@@ -18,10 +18,10 @@ function App() {
     setData(fetchedData);
     }
 
-    // if(!isFetched){
-    //   getData();
-    //   setFetched(true);
-    // }
+    if(!isFetched){
+      getData();
+      setFetched(true);
+    }
   },[isFetched])
 
   return (
